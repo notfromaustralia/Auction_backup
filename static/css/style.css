@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Dashboard custom css */
+.ui.vertical.menu.sidebar-menu{
+    margin-top: 50px !important;
+    max-height: calc(100%-50px) !important;
+    height: calc(100%-50px) !important;
+}
+
+.main-content{
+    margin-top: 50px;
+}
+
+/* Login Page Custom CSS */
+.container{
+    max-width: 50%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: 25vw;
+    border: 0px solid;
+    box-shadow: 5px 10px orangered;
+    border-radius: 30%;
+    padding: 10px;
+}
+/* Register Custom css */
+
+
+@media(min-width:768px){
+    .ui.vertical.menu.sidebar-menu{
+        visibility: visible;
+        transform: translate3d(0,0,0);
+    }
+    .main-content{
+        margin-left: 18rem;
+    }
+    .sidebar-menu-toggler{
+        display: none !important; 
+    }  
+}
